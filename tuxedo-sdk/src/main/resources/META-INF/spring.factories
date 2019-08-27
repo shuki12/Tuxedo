@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.tuxedo_sdk.openlegacy.TuxedoSdkAutoConfiguration

@@ -1,0 +1,11 @@
+ol:
+  config:
+    apiPackage: com.tuxedo_api.openlegacy
+    apiSourceFolder: src/main/java
+    backendSolution: orchestration
+    designtimeContext: default
+    frontendSolution: orchestration-rest
+    referredProjects:
+    - tuxedo-sdk
+    sourceFetcher: sourceFetcher
+    webPackage: com.tuxedo_api.openlegacy.web

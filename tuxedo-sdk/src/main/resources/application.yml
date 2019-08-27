@@ -1,0 +1,20 @@
+logging:
+  level:
+    org.openlegacy: debug
+ol:
+  # Openlegacy Common Properties (OLCommonProperties) #
+  common:
+    right-to-left: false
+    project:
+      tuxedoSdk:
+        backend-solution: TUXEDO
+        live-session: true
+        trail-path: /trails/tuxedo-sdk.trail
+        cache:
+          enabled: true
+  tuxedo:
+    project:
+      tuxedoSdk:
+        app-address: //tuxedo.openlegacy.org:8001
+        validate-fields-as-list: true
+

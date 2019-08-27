@@ -1,0 +1,14 @@
+ol:
+  config:
+    apiPackage: com.tuxedo_sdk.openlegacy
+    apiSourceFolder: src/main/java
+    backendSolution: tuxedo
+    designtimeContext: default
+    frontendSolution: java
+    hostName: //tuxedo.openlegacy.org:8001
+    legacyFilename: GETUSERDETAILS
+    password: ''
+    provider: openlegacy-tuxedo
+    sourceFetcher: sourceFetcher
+    userName: ''
+    webPackage: com.tuxedo_sdk.openlegacy.web

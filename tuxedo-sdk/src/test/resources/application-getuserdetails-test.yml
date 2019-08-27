@@ -1,0 +1,7 @@
+ol:
+  common:
+    project:
+      tuxedoSdk:
+        live-session: true
+        # Use generated trail file to check internal API
+        trail-path: /trails/Getuserdetails.trail

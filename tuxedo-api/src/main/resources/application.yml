@@ -1,0 +1,50 @@
+# Logging #
+#logging:
+#  level:
+#    org:
+#      openlegacy: debug
+
+# Security #
+security:
+  # Spring security OAuth2 configuration #
+  oauth2:
+    resource:
+      filter-order: 3
+
+# Springfox #
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: /swagger/swagger.json
+
+# Openlegacy #
+ol:
+  # Openlegacy Common Properties (OLCommonProperties) #
+  common:
+    user-properties-folder-name: tuxedo-api
+    cache:
+      enabled: true
+
+---
+
+# tuxedoSdk
+logging:
+  level:
+    org.openlegacy: debug
+ol:
+  # Openlegacy Common Properties (OLCommonProperties) #
+  common:
+    right-to-left: false
+    project:
+      tuxedoSdk:
+        backend-solution: TUXEDO
+        live-session: true
+        trail-path: /trails/tuxedo-sdk.trail
+        cache:
+          enabled: true
+  tuxedo:
+    project:
+      tuxedoSdk:
+        app-address: //tuxedo.openlegacy.org:8001
+        validate-fields-as-list: true
